@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+}
+.mapdiv{
+  width: 70%;
+  margin: auto;
+}
+
+.mapdiv path.st1{
+  fill: #62BAEF;
+  transition: fill 0.3s;
+}
+.mapdiv path.st2{
+  fill: #3FA9F5;
+  transition: fill 0.3s;
+}
+.mapdiv path.st3{
+  fill: #92CDEA;
+  transition: fill 0.3s;
+}
+.mapdiv path.st4{
+  fill: #989898;
+  transition: fill 0.3s;
+}
+.mapdiv path.st5{
+  fill: #FBFBFB;
+  transition: fill 0.3s;
+}
+.mapdiv path.st6{
+  fill: #FAFAFA;
+  transition: fill 0.3s;
+}
+.mapdiv path.st7{
+  fill: #E4E4E4;
+  transition: fill 0.3s;
+}
+
+.mapdiv path:hover{
+  fill:#000;
+}
+
+.state-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.state-list {
+  min-width: 30%;
+  list-style: none;
+}
+.complete-btn {
+  background: rgb(73, 204, 73);
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
